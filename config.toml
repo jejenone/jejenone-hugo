@@ -1,3 +1,70 @@
 baseURL = "https://fleury.net/"
 languageCode = "en-us"
 title = "Packet Too Big"
+
+# bleak
+#[Params]
+#  # Warning Keys are case sensitives
+#  Subtitle = "Your subtitle !"
+#  description = "Everything is awesome !"
+#  cover = "/images/cover.jpg"
+#
+#  # Google analytics
+#  googleAnalyticsUserID = "UA-xxxxxxxx-x"
+#  domainVerification = "xxxxxxxxxxxxxxxxxxxxx"
+#  disqus = "xxxxxxxxx"
+#
+#  [params.author]
+#    firstName = "FirstName"
+#    lastName = "LastName"
+#    gender = "(fe)?male"
+#    userName = "username"
+#    image = "//www.gravatar.com/avatar/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.png"
+#    website = "http://www.foo.com"
+#    twitter = "xxxxxxx"
+#    github = "xxxxxxx"
+#    facebook = "xxxxxxxxx"
+#    linkedin = "xxxxxxxxx"
+#    gplus = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+#    gravatarHash = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+
+# Casper
+[[menu.main]]
+  name = "My Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "About me"
+  weight = -110
+  identifier = "about"
+  url = "/about"
+
+[params]
+  description = "Welcome to my website"
+  metadescription = ""
+  cover = "images/cover.jpg"
+  author = "Valère JEANTET"
+  authorlocation = "Paris, France"
+  authorwebsite = "http://vjeantet.fr"
+  bio= "my bio"
+  logo = "images/logo.png"
+  googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = "http://feeds.feedburner.com/..."
+  githubName = "vjeantet"
+  twitterName = "vjeantet"
+  # facebookName = ""
+  # linkedinName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "default"
+
+  [params.social]
+    twitter = "your_twitter"
